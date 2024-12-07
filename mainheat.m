@@ -43,7 +43,3 @@ ylabel('y');
 zlabel('z');
 pause(0.1);
 view(30,30)
-
-insul_geom = logical(insul_geom);
-energy = sum(T .* insul_geom, "all");
-
